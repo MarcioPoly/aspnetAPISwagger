@@ -22,6 +22,7 @@ namespace WebAPIImprove.Controllers
         }
 
         // POST api/values
+        [Authorize]
         public void Post([FromBody]string value)
         {
         }
