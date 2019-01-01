@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 
 namespace WebAPIImprove.Controllers
@@ -23,8 +24,9 @@ namespace WebAPIImprove.Controllers
 
         // POST api/values
         [Authorize]
-        public void Post([FromBody]string value)
+        public async Task<IHttpActionResult> Post([FromBody]string value)
         {
+            return Ok("You are Authorized");
         }
 
         // PUT api/values/5

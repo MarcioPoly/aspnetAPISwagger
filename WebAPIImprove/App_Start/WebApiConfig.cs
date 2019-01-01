@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using WebAPIImprove.Identity;
 
 namespace WebAPIImprove
 {
@@ -13,6 +14,7 @@ namespace WebAPIImprove
 
             // Web API routes
             config.MapHttpAttributeRoutes();
+            config.MessageHandlers.Add(new ValidateTokenHandler());
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
