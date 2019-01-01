@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIImprove", "WebAPIImprove\WebAPIImprove.csproj", "{3138C728-0444-44B4-848B-240FF998AF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIImprove.Tests", "WebAPIImprove.Tests\WebAPIImprove.Tests.csproj", "{21C56A9B-7AF4-4730-870C-C95B13AD6797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3138C728-0444-44B4-848B-240FF998AF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3138C728-0444-44B4-848B-240FF998AF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3138C728-0444-44B4-848B-240FF998AF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3138C728-0444-44B4-848B-240FF998AF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C56A9B-7AF4-4730-870C-C95B13AD6797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C56A9B-7AF4-4730-870C-C95B13AD6797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C56A9B-7AF4-4730-870C-C95B13AD6797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C56A9B-7AF4-4730-870C-C95B13AD6797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29DD39D8-A4B2-4115-A627-C959D09C0047}
+	EndGlobalSection
+EndGlobal
